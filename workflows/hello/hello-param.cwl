@@ -52,6 +52,4 @@
         - { id: "#echocmd.echo-in-message" ,  source: "#usermessage"  }
         - { id: "#echocmd.echo-in-outputfile",  source: "#useroutput"  }
       outputs:
-        - { id: "#echocmd.echo-out-filename", defaul: "default-output.txt" }
-
-
+        - { id: "#echocmd.echo-out-filename", default: "default-output.txt" }
